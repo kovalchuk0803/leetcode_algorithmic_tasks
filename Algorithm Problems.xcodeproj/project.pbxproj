@@ -8,8 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		7E9745C226C024730084F0E7 /* Algorithm_Problems.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9745B826C024730084F0E7 /* Algorithm_Problems.framework */; };
-		7E9745C726C024730084F0E7 /* Algorithm_ProblemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745C626C024730084F0E7 /* Algorithm_ProblemsTests.swift */; };
 		7E9745C926C024730084F0E7 /* Algorithm_Problems.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9745BB26C024730084F0E7 /* Algorithm_Problems.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E9745D326C024AB0084F0E7 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745D226C024AB0084F0E7 /* AddTwoNumbers.swift */; };
+		7E9745D426C024AB0084F0E7 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745D226C024AB0084F0E7 /* AddTwoNumbers.swift */; };
+		7E9745D626C02D760084F0E7 /* AddTwoNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745D526C02D760084F0E7 /* AddTwoNumbersTests.swift */; };
+		7E9745D826C02F9D0084F0E7 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745D726C02F9D0084F0E7 /* TwoSum.swift */; };
+		7E9745D926C02F9D0084F0E7 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745D726C02F9D0084F0E7 /* TwoSum.swift */; };
+		7E9745DB26C030210084F0E7 /* TwoSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745DA26C030210084F0E7 /* TwoSumTest.swift */; };
+		7E9745DD26C034D50084F0E7 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745DC26C034D50084F0E7 /* ReverseInteger.swift */; };
+		7E9745DE26C034D50084F0E7 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745DC26C034D50084F0E7 /* ReverseInteger.swift */; };
+		7E9745E026C035260084F0E7 /* ReverseIntegerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745DF26C035260084F0E7 /* ReverseIntegerTest.swift */; };
+		7E9745E626C03B710084F0E7 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745E526C03B710084F0E7 /* Palindrome.swift */; };
+		7E9745E726C03B710084F0E7 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745E526C03B710084F0E7 /* Palindrome.swift */; };
+		7E9745E926C03B870084F0E7 /* PalindromeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745E826C03B870084F0E7 /* PalindromeTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +38,15 @@
 		7E9745BB26C024730084F0E7 /* Algorithm_Problems.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algorithm_Problems.h; sourceTree = "<group>"; };
 		7E9745BC26C024730084F0E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E9745C126C024730084F0E7 /* Algorithm ProblemsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithm ProblemsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E9745C626C024730084F0E7 /* Algorithm_ProblemsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm_ProblemsTests.swift; sourceTree = "<group>"; };
 		7E9745C826C024730084F0E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E9745D226C024AB0084F0E7 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
+		7E9745D526C02D760084F0E7 /* AddTwoNumbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersTests.swift; sourceTree = "<group>"; };
+		7E9745D726C02F9D0084F0E7 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		7E9745DA26C030210084F0E7 /* TwoSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTest.swift; sourceTree = "<group>"; };
+		7E9745DC26C034D50084F0E7 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
+		7E9745DF26C035260084F0E7 /* ReverseIntegerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseIntegerTest.swift; sourceTree = "<group>"; };
+		7E9745E526C03B710084F0E7 /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
+		7E9745E826C03B870084F0E7 /* PalindromeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +91,8 @@
 			children = (
 				7E9745BB26C024730084F0E7 /* Algorithm_Problems.h */,
 				7E9745BC26C024730084F0E7 /* Info.plist */,
+				7E9745E226C035DD0084F0E7 /* Medium */,
+				7E9745E126C035D70084F0E7 /* Easy */,
 			);
 			path = "Algorithm Problems";
 			sourceTree = "<group>";
@@ -80,10 +100,47 @@
 		7E9745C526C024730084F0E7 /* Algorithm ProblemsTests */ = {
 			isa = PBXGroup;
 			children = (
-				7E9745C626C024730084F0E7 /* Algorithm_ProblemsTests.swift */,
+				7E9745E426C035EB0084F0E7 /* Medium */,
+				7E9745E326C035E40084F0E7 /* Easy */,
 				7E9745C826C024730084F0E7 /* Info.plist */,
 			);
 			path = "Algorithm ProblemsTests";
+			sourceTree = "<group>";
+		};
+		7E9745E126C035D70084F0E7 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				7E9745D726C02F9D0084F0E7 /* TwoSum.swift */,
+				7E9745DC26C034D50084F0E7 /* ReverseInteger.swift */,
+				7E9745E526C03B710084F0E7 /* Palindrome.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		7E9745E226C035DD0084F0E7 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				7E9745D226C024AB0084F0E7 /* AddTwoNumbers.swift */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		7E9745E326C035E40084F0E7 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				7E9745DA26C030210084F0E7 /* TwoSumTest.swift */,
+				7E9745DF26C035260084F0E7 /* ReverseIntegerTest.swift */,
+				7E9745E826C03B870084F0E7 /* PalindromeTest.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		7E9745E426C035EB0084F0E7 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				7E9745D526C02D760084F0E7 /* AddTwoNumbersTests.swift */,
+			);
+			path = Medium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +204,7 @@
 				TargetAttributes = {
 					7E9745B726C024720084F0E7 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					7E9745C026C024730084F0E7 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -194,6 +252,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E9745D826C02F9D0084F0E7 /* TwoSum.swift in Sources */,
+				7E9745D326C024AB0084F0E7 /* AddTwoNumbers.swift in Sources */,
+				7E9745E626C03B710084F0E7 /* Palindrome.swift in Sources */,
+				7E9745DD26C034D50084F0E7 /* ReverseInteger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +263,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E9745C726C024730084F0E7 /* Algorithm_ProblemsTests.swift in Sources */,
+				7E9745D626C02D760084F0E7 /* AddTwoNumbersTests.swift in Sources */,
+				7E9745D426C024AB0084F0E7 /* AddTwoNumbers.swift in Sources */,
+				7E9745E926C03B870084F0E7 /* PalindromeTest.swift in Sources */,
+				7E9745E726C03B710084F0E7 /* Palindrome.swift in Sources */,
+				7E9745DB26C030210084F0E7 /* TwoSumTest.swift in Sources */,
+				7E9745E026C035260084F0E7 /* ReverseIntegerTest.swift in Sources */,
+				7E9745DE26C034D50084F0E7 /* ReverseInteger.swift in Sources */,
+				7E9745D926C02F9D0084F0E7 /* TwoSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +409,7 @@
 		7E9745CD26C024730084F0E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -357,6 +427,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kovalchuk.Algorithm-Problems";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -364,6 +435,7 @@
 		7E9745CE26C024730084F0E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -388,6 +460,7 @@
 		7E9745D026C024730084F0E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 32KX7ZT3NF;
@@ -406,6 +479,7 @@
 		7E9745D126C024730084F0E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 32KX7ZT3NF;
