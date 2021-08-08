@@ -24,6 +24,9 @@
 		7E9745E626C03B710084F0E7 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745E526C03B710084F0E7 /* Palindrome.swift */; };
 		7E9745E726C03B710084F0E7 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745E526C03B710084F0E7 /* Palindrome.swift */; };
 		7E9745E926C03B870084F0E7 /* PalindromeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745E826C03B870084F0E7 /* PalindromeTest.swift */; };
+		7EB4975326C0531200CC1F51 /* SetMismatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4975226C0531200CC1F51 /* SetMismatch.swift */; };
+		7EB4975426C0531200CC1F51 /* SetMismatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4975226C0531200CC1F51 /* SetMismatch.swift */; };
+		7EB4975626C0532C00CC1F51 /* SetMismatchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4975526C0532C00CC1F51 /* SetMismatchTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,8 @@
 		7E9745DF26C035260084F0E7 /* ReverseIntegerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseIntegerTest.swift; sourceTree = "<group>"; };
 		7E9745E526C03B710084F0E7 /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
 		7E9745E826C03B870084F0E7 /* PalindromeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeTest.swift; sourceTree = "<group>"; };
+		7EB4975226C0531200CC1F51 /* SetMismatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMismatch.swift; sourceTree = "<group>"; };
+		7EB4975526C0532C00CC1F51 /* SetMismatchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMismatchTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,7 @@
 				7E9745DC26C034D50084F0E7 /* ReverseInteger.swift */,
 				7E9745E526C03B710084F0E7 /* Palindrome.swift */,
 				7E539C3826C0453600D0D76D /* CountPrimes.swift */,
+				7EB4975226C0531200CC1F51 /* SetMismatch.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -138,6 +144,7 @@
 				7E9745DF26C035260084F0E7 /* ReverseIntegerTest.swift */,
 				7E9745E826C03B870084F0E7 /* PalindromeTest.swift */,
 				7E539C3B26C0458A00D0D76D /* CountPrimesTest.swift */,
+				7EB4975526C0532C00CC1F51 /* SetMismatchTest.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -261,6 +268,7 @@
 			files = (
 				7E9745D826C02F9D0084F0E7 /* TwoSum.swift in Sources */,
 				7E9745D326C024AB0084F0E7 /* AddTwoNumbers.swift in Sources */,
+				7EB4975326C0531200CC1F51 /* SetMismatch.swift in Sources */,
 				7E539C3926C0453600D0D76D /* CountPrimes.swift in Sources */,
 				7E9745E626C03B710084F0E7 /* Palindrome.swift in Sources */,
 				7E9745DD26C034D50084F0E7 /* ReverseInteger.swift in Sources */,
@@ -273,6 +281,7 @@
 			files = (
 				7E539C3A26C0453600D0D76D /* CountPrimes.swift in Sources */,
 				7E539C3C26C0458A00D0D76D /* CountPrimesTest.swift in Sources */,
+				7EB4975626C0532C00CC1F51 /* SetMismatchTest.swift in Sources */,
 				7E9745D626C02D760084F0E7 /* AddTwoNumbersTests.swift in Sources */,
 				7E9745D426C024AB0084F0E7 /* AddTwoNumbers.swift in Sources */,
 				7E9745E926C03B870084F0E7 /* PalindromeTest.swift in Sources */,
@@ -281,6 +290,7 @@
 				7E9745E026C035260084F0E7 /* ReverseIntegerTest.swift in Sources */,
 				7E9745DE26C034D50084F0E7 /* ReverseInteger.swift in Sources */,
 				7E9745D926C02F9D0084F0E7 /* TwoSum.swift in Sources */,
+				7EB4975426C0531200CC1F51 /* SetMismatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
