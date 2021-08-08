@@ -1,7 +1,8 @@
 /**
  Difficulty: Easy
  
- Count the number of prime numbers less than a non-negative number, n.
+ Count the number of prime numbers less than a non-negative number `n`
+ Sieve of Eratosthenes https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
  ```
  Example 1:
  Input: n = 10
@@ -20,9 +21,27 @@
 
 import Foundation
 
-class CountPrimes {
-    
+class CountPrimesSolution {
     func countPrimes(_ n: Int) -> Int {
-        return 0
+        guard n > 2 else { return 0 }
+        
+        var leastPrime = [Int](repeating: 0, count: n + 1)
+        var primes: [Int] = []
+        for i in 2..<n {
+            if leastPrime[i] == 0 {
+                leastPrime[i] = i
+                primes.append(i)
+            }
+            
+            for p in primes {
+                let x = p * i
+                if p > leastPrime[i] || x > n {
+                    break
+                } else {
+                    leastPrime[x] = p
+                }
+            }
+        }
+        return primes.count
     }
 }

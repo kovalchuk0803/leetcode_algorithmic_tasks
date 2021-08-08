@@ -1,7 +1,7 @@
 /**
  Difficulty: Easy
  
- Count the number of prime numbers less than a non-negative number, n.
+ Count the number of prime numbers less than a non-negative number `n`
  ```
  Example 1:
  Input: n = 10
@@ -22,5 +22,19 @@ import XCTest
 
 class CountPrimesTest: XCTestCase {
 
-
+    private let testCases = [
+        10: 4,
+        0: 0,
+        1: 0,
+        8: 4,
+        2: 0
+    ]
+    
+    func test() {
+        let solution = CountPrimesSolution()
+        for (cs, result) in testCases {
+            let actualResult = solution.countPrimes(cs)
+            XCTAssertEqual(actualResult, result, "expected result for \(cs) is \(result), but got \(actualResult)")
+        }
+    }
 }
