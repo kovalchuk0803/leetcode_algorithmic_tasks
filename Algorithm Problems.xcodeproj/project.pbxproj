@@ -24,6 +24,9 @@
 		7E9745E626C03B710084F0E7 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745E526C03B710084F0E7 /* Palindrome.swift */; };
 		7E9745E726C03B710084F0E7 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745E526C03B710084F0E7 /* Palindrome.swift */; };
 		7E9745E926C03B870084F0E7 /* PalindromeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9745E826C03B870084F0E7 /* PalindromeTest.swift */; };
+		7E9CDC5926C91A5100F74F84 /* SinglyLinkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9CDC5826C91A5100F74F84 /* SinglyLinkedListTest.swift */; };
+		7E9FA25326C914D6001BEDE9 /* SinglyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FA25226C914D6001BEDE9 /* SinglyLinkedList.swift */; };
+		7E9FA25426C914D6001BEDE9 /* SinglyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9FA25226C914D6001BEDE9 /* SinglyLinkedList.swift */; };
 		7EB4975326C0531200CC1F51 /* SetMismatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4975226C0531200CC1F51 /* SetMismatch.swift */; };
 		7EB4975426C0531200CC1F51 /* SetMismatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4975226C0531200CC1F51 /* SetMismatch.swift */; };
 		7EB4975626C0532C00CC1F51 /* SetMismatchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4975526C0532C00CC1F51 /* SetMismatchTest.swift */; };
@@ -55,6 +58,8 @@
 		7E9745DF26C035260084F0E7 /* ReverseIntegerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseIntegerTest.swift; sourceTree = "<group>"; };
 		7E9745E526C03B710084F0E7 /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
 		7E9745E826C03B870084F0E7 /* PalindromeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeTest.swift; sourceTree = "<group>"; };
+		7E9CDC5826C91A5100F74F84 /* SinglyLinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglyLinkedListTest.swift; sourceTree = "<group>"; };
+		7E9FA25226C914D6001BEDE9 /* SinglyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglyLinkedList.swift; sourceTree = "<group>"; };
 		7EB4975226C0531200CC1F51 /* SetMismatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMismatch.swift; sourceTree = "<group>"; };
 		7EB4975526C0532C00CC1F51 /* SetMismatchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMismatchTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +108,7 @@
 				7E9745BC26C024730084F0E7 /* Info.plist */,
 				7E9745E226C035DD0084F0E7 /* Medium */,
 				7E9745E126C035D70084F0E7 /* Easy */,
+				7E9FA25526C914DB001BEDE9 /* DataStructures */,
 			);
 			path = "Algorithm Problems";
 			sourceTree = "<group>";
@@ -110,6 +116,7 @@
 		7E9745C526C024730084F0E7 /* Algorithm ProblemsTests */ = {
 			isa = PBXGroup;
 			children = (
+				7E9CDC5A26C91A5B00F74F84 /* DataStructuresTests */,
 				7E9745E426C035EB0084F0E7 /* Medium */,
 				7E9745E326C035E40084F0E7 /* Easy */,
 				7E9745C826C024730084F0E7 /* Info.plist */,
@@ -155,6 +162,22 @@
 				7E9745D526C02D760084F0E7 /* AddTwoNumbersTests.swift */,
 			);
 			path = Medium;
+			sourceTree = "<group>";
+		};
+		7E9CDC5A26C91A5B00F74F84 /* DataStructuresTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E9CDC5826C91A5100F74F84 /* SinglyLinkedListTest.swift */,
+			);
+			path = DataStructuresTests;
+			sourceTree = "<group>";
+		};
+		7E9FA25526C914DB001BEDE9 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				7E9FA25226C914D6001BEDE9 /* SinglyLinkedList.swift */,
+			);
+			path = DataStructures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +293,7 @@
 				7E9745D326C024AB0084F0E7 /* AddTwoNumbers.swift in Sources */,
 				7EB4975326C0531200CC1F51 /* SetMismatch.swift in Sources */,
 				7E539C3926C0453600D0D76D /* CountPrimes.swift in Sources */,
+				7E9FA25326C914D6001BEDE9 /* SinglyLinkedList.swift in Sources */,
 				7E9745E626C03B710084F0E7 /* Palindrome.swift in Sources */,
 				7E9745DD26C034D50084F0E7 /* ReverseInteger.swift in Sources */,
 			);
@@ -289,7 +313,9 @@
 				7E9745DB26C030210084F0E7 /* TwoSumTest.swift in Sources */,
 				7E9745E026C035260084F0E7 /* ReverseIntegerTest.swift in Sources */,
 				7E9745DE26C034D50084F0E7 /* ReverseInteger.swift in Sources */,
+				7E9FA25426C914D6001BEDE9 /* SinglyLinkedList.swift in Sources */,
 				7E9745D926C02F9D0084F0E7 /* TwoSum.swift in Sources */,
+				7E9CDC5926C91A5100F74F84 /* SinglyLinkedListTest.swift in Sources */,
 				7EB4975426C0531200CC1F51 /* SetMismatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

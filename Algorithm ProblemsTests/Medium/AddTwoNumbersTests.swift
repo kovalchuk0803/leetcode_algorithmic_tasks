@@ -22,14 +22,14 @@ import XCTest
 class AddTwoNumbersTests: XCTestCase {
 
     private struct TestCase {
-        let l1: ListNode
-        let l2: ListNode
-        let result: ListNode
+        let l1: SinglyLinkedListNode<Int>
+        let l2: SinglyLinkedListNode<Int>
+        let result: SinglyLinkedListNode<Int>
         
         init(l1: [Int], l2: [Int], result: [Int]) {
-            self.l1 = ListNode(array: l1)
-            self.l2 = ListNode(array: l2)
-            self.result = ListNode(array: result)
+            self.l1 = SinglyLinkedListNode(nodes: l1)
+            self.l2 = SinglyLinkedListNode(nodes: l2)
+            self.result = SinglyLinkedListNode(nodes: result)
         }
     }
     
