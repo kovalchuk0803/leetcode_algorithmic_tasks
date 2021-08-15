@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "9e19afa894f9ee0dd2d2fdf0183a54f7"
+build_time: [1629022893, 80778000]
+inputs:
+  "/Users/kovalcuk/Desktop/Algorithm Problems/Tests/Algorithm ProblemsTests/Algorithm_ProblemsTests.swift": [1629022835, 375623462]

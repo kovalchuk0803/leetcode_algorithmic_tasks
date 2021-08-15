@@ -1,0 +1,4 @@
+module Algorithm_Problems {
+    header "/Users/kovalcuk/Desktop/Algorithm Problems/.build/x86_64-apple-macosx/debug/Algorithm_Problems.build/Algorithm Problems-Swift.h"
+    requires objc
+}

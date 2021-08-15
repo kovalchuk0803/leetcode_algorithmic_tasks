@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kovalcuk/Desktop/Algorithm Problems/.build/x86_64-apple-macosx/debug/Algorithm_Problems.build/master.swiftdeps"
+  },
+  "/Users/kovalcuk/Desktop/Algorithm Problems/Sources/Algorithm Problems/Algorithm_Problems.swift": {
+    "dependencies": "/Users/kovalcuk/Desktop/Algorithm Problems/.build/x86_64-apple-macosx/debug/Algorithm_Problems.build/Algorithm_Problems.d",
+    "object": "/Users/kovalcuk/Desktop/Algorithm Problems/.build/x86_64-apple-macosx/debug/Algorithm_Problems.build/Algorithm_Problems.swift.o",
+    "swiftmodule": "/Users/kovalcuk/Desktop/Algorithm Problems/.build/x86_64-apple-macosx/debug/Algorithm_Problems.build/Algorithm_Problems~partial.swiftmodule",
+    "swift-dependencies": "/Users/kovalcuk/Desktop/Algorithm Problems/.build/x86_64-apple-macosx/debug/Algorithm_Problems.build/Algorithm_Problems.swiftdeps"
+  }
+}
