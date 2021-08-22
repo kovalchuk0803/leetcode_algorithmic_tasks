@@ -44,10 +44,10 @@ extension SinglyLinkedListNode: Equatable where Element: Equatable {
     }
 }
 
-// MARK: - SinglyLinkedListNode + CustomDebugStringConvertible
+// MARK: - SinglyLinkedListNode + CustomStringConvertible
 
-extension SinglyLinkedListNode: CustomDebugStringConvertible where Element: CustomStringConvertible {
-    var debugDescription: String {
+extension SinglyLinkedListNode: CustomStringConvertible where Element: CustomStringConvertible {
+    var description: String {
         var str = ""
         var node = self
         while true {
